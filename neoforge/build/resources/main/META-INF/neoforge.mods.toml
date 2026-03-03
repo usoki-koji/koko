@@ -1,0 +1,48 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[5.9]"
+issueTrackerURL = "https://github.com/usoki-koji/koko/issues"
+license = "GNU General Public License v3.0"
+
+[[mods]]
+    modId = "koko"
+    displayName = "Koko"
+    version = "1.0.0"
+    authors = "Koji Usoki"
+    description = "Koko is a modular mod that allows you to add your own skills, their xp sources and effects."
+    #logoFile = ""
+
+[[mixins]]
+    config = "koko.mixins.json"
+
+[[dependencies."koko"]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies."koko"]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1]"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies."koko"]]
+    modId = "kotlinforforge"
+    type = "required"
+    versionRange = "[5.9]"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies."koko"]]
+    modId = "curios"
+    type = "optional"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies."koko"]]
+    modId = "irons_spellbooks"
+    type = "optional"
+    ordering = "AFTER"
+    side = "BOTH"

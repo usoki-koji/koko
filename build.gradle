@@ -1,134 +1,72 @@
 plugins {
-    id 'java-library'
-    id 'maven-publish'
-    id 'idea'
-    id 'net.neoforged.moddev' version '2.0.140'
+    id 'dev.architectury.loom' version '1.11-SNAPSHOT' apply false
+    id 'architectury-plugin' version '3.4-SNAPSHOT'
+    id 'com.gradleup.shadow' version '8.3.6' apply false
     id 'org.jetbrains.kotlin.jvm' version '2.0.0'
 }
 
-version = mod_version
-group = mod_group_id
-
-repositories {
-    mavenLocal()
-
-    maven {
-        name = 'Kotlin for Forge'
-        url = 'https://thedarkcolour.github.io/KotlinForForge/'
-        content { includeGroup "thedarkcolour" }
-    }
-
-    maven {
-        name = "Curios"
-        url = uri("https://maven.theillusivec4.top/")
-    }
-
-    maven {
-        name = "Iron's Maven - Release"
-        url = "https://code.redspace.io/releases"
-    }
+architectury {
+    minecraft = project.minecraft_version
 }
 
-base {
-    archivesName = mod_id
-}
+allprojects {
+    group = rootProject.maven_group
+    version = rootProject.mod_version
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
-kotlin.jvmToolchain(21)
-
-neoForge {
-    version = project.neo_version
-
-    runs {
-        client {
-            client()
-
-            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
-        }
-
-        server {
-            server()
-            programArgument '--nogui'
-            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
-        }
-
-        gameTestServer {
-            type = "gameTestServer"
-            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
-        }
-
-        data {
-            data()
-
-            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
-        }
-
-        configureEach {
-            systemProperty 'forge.logging.markers', 'REGISTRIES'
-            logLevel = org.slf4j.event.Level.DEBUG
-        }
-    }
-
-    mods {
-        "${mod_id}" {
-            sourceSet(sourceSets.main)
-        }
-    }
-}
-
-sourceSets {
-    main {
-        resources {
-            srcDir("src/generated/resources")
-
-            exclude("data")
-        }
-    }
-}
-
-dependencies {
-    implementation "thedarkcolour:kotlinforforge-neoforge:${kotlin_for_forge_version}"
-    compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_api_version}+${minecraft_version}:api"
-    compileOnly "io.redspace:irons_spellbooks:${minecraft_version}-${iron_spells_version}:api"
-}
-
-var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
-    var replaceProperties = [minecraft_version      : minecraft_version,
-                             minecraft_version_range: minecraft_version_range,
-                             neo_version            : neo_version,
-                             neo_version_range      : neo_version_range,
-                             loader_version_range   : loader_version_range,
-                             mod_id                 : mod_id,
-                             mod_name               : mod_name,
-                             mod_license            : mod_license,
-                             mod_version            : mod_version,
-                             mod_authors            : mod_authors,
-                             mod_description        : mod_description]
-    inputs.properties replaceProperties
-    expand replaceProperties
-    from "src/main/templates"
-    into "build/generated/sources/modMetadata"
-}
-
-sourceSets.main.resources.srcDir generateModMetadata
-neoForge.ideSyncTask generateModMetadata
-
-publishing {
-    publications {
-        register('mavenJava', MavenPublication) {
-            from components.java
-        }
-    }
     repositories {
         maven {
-            url "file://${project.projectDir}/repo"
+            name = 'ParchmentMC'
+            url = 'https://maven.parchmentmc.org'
         }
     }
 }
 
-idea {
-    module {
-        downloadSources = true
-        downloadJavadoc = true
+subprojects {
+    apply plugin: 'dev.architectury.loom'
+    apply plugin: 'architectury-plugin'
+    apply plugin: 'maven-publish'
+    apply plugin: 'org.jetbrains.kotlin.jvm'
+
+    base {
+        archivesName = "$rootProject.archives_name-$project.name"
+    }
+
+    repositories {
+        maven {
+            name = "Curios"
+            url = uri("https://maven.theillusivec4.top/")
+        }
+
+        maven {
+            name = "Iron's Maven - Release"
+            url = "https://code.redspace.io/releases"
+        }
+    }
+
+    loom {
+        silentMojangMappingsLicense()
+    }
+
+    dependencies {
+        minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
+
+        mappings loom.layered() {
+            officialMojangMappings()
+            parchment("org.parchmentmc.data:parchment-$rootProject.minecraft_version:2024.11.17@zip")
+        }
+
+        compileOnly "top.theillusivec4.curios:curios-neoforge:$rootProject.curios_api_version+$rootProject.minecraft_version:api"
+        compileOnly "io.redspace:irons_spellbooks:$rootProject.minecraft_version-$rootProject.iron_spells_version:api"
+    }
+
+    java {
+        withSourcesJar()
+
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        it.options.release = 21
     }
 }

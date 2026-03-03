@@ -1,0 +1,48 @@
+modLoader = "kotlinforforge"
+loaderVersion = "${loader_version_range}"
+issueTrackerURL = "${issue_tracker}"
+license = "${license}"
+
+[[mods]]
+    modId = "${mod_id}"
+    displayName = "${mod_name}"
+    version = "${mod_version}"
+    authors = "${mod_authors}"
+    description = "${mod_description}"
+    #logoFile = ""
+
+[[mixins]]
+    config = "koko.mixins.json"
+
+[[dependencies."${mod_id}"]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "${neo_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "${minecraft_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId = "kotlinforforge"
+    type = "required"
+    versionRange = "${loader_version_range}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId = "curios"
+    type = "optional"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+    modId = "irons_spellbooks"
+    type = "optional"
+    ordering = "AFTER"
+    side = "BOTH"

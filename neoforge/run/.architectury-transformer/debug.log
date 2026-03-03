@@ -1,0 +1,1285 @@
+[Architectury Transformer] Architectury Runtime 5.2.87
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\koji\Desktop\ArcSteam\Koko\common\build\devlibs\koko-common-2.0.0-dev.jar
+[Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Provided 106 classpath jar(s):
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\fabric-loom\1.21.1\neoforge\21.1.215\client-extra.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\thedarkcolour\kotlinforforge-neoforge\5.9.0\b688e0ee031c424de89cc7af208596c99aa0522e\kotlinforforge-neoforge-5.9.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\2.1.21\4929da533b3f04a101e4bb9ae0ee51a1d8107614\kotlin-reflect-2.1.21.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-jdk8\1.10.2\809f71bf722bad7e78ebe8ec710c0327c23b7a31\kotlinx-coroutines-jdk8-1.10.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.10.2\4a9f78ef49483748e2c129f3d124b8fa249dafbf\kotlinx-coroutines-core-jvm-1.10.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-json-jvm\1.8.1\4de3bace4b175753df5484d2acd74c14bfeb5be9\kotlinx-serialization-json-jvm-1.8.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-core-jvm\1.8.1\510cb839cce9a3e708052d480a6fbf4a7274dfcd\kotlinx-serialization-core-jvm-1.8.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\2.1.21\fb62497994f5cfa4ad41fcff05020c35976307c6\kotlin-stdlib-jdk8-2.1.21.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\2.1.21\f5e72fe5f9501e0d27ec633beb3996c29641b877\kotlin-stdlib-jdk7-2.1.21.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.1.21\97a0975aa19d925e109537af60eb46902920015c\kotlin-stdlib-2.1.21.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.4\dc4682125d5db647d6ce80a98b98945835adcd4b\fabric-loader-0.18.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\26.0.2\c7ce3cdeda3d18909368dfe5977332dfad326c6d\annotations-26.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\top.theillusivec4.curios\curios-neoforge\9.5.1+1.21.1\cb1f24ce0b444608e635057bf0821cc56d455ef0\curios-neoforge-9.5.1+1.21.1-api.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.redspace\irons_spellbooks\1.21.1-3.15.0\3803ed5b3094cd1fbf75229d10f9acd94e649e85\irons_spellbooks-1.21.1-3.15.0-api.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.42\46555dbfff14e9e052f1f693aed14d542a74e111\earlydisplay-4.0.42.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\fabric-loom\forge\transformed-dependencies-v1\net\neoforged\fancymodloader\38b88516ac22a1f8d2b65bf55d49a3a5644c96667c45491e3e915ca819460840\loader\4.0.42\loader-4.0.42.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.5\5b2d33285ab5d1554e9798ad98c40d6ea3868bd5\bus-8.0.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\11.0.5\b8f0d49294f733fdb6173931b263553e943dc950\modlauncher-11.0.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged\mergetool\2.0.0\52fe1949be64e3303aabaaa21e315f551db9c9f4\mergetool-2.0.0-api.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.8.3\90b2fd6efcb4a7d5b9810cf78f9d824994d717f2\toml-3.8.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.8.3\b442a95f09e349927f5a945ecb594455870fcf4f\core-3.8.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.3.0\b562e9bb61235c9520e26282cdee71f8f802d1fc\terminalconsoleappender-1.3.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.15.2+mixin.0.8.7\2af2f021d8e02a0220dc27a7a72b4666d66d44ca\sponge-mixin-0.15.2+mixin.0.8.7.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.14.0\1ed471194b02f2c6cb734a0cd6f6f107c673afae\commons-lang3-3.14.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\2.0.2\1a2d076cbc33b0520cbacd591224427b2a20047d\bootstraplauncher-2.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\3.0.8\c0ef95cecd8699a0449053ac7d9c160748d902cd\securejarhandler-3.0.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.8\36e4d212970388e5bd2c5180292012502df461bb\asm-commons-9.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.8\395f1c1f035258511f27bc9b2583d76e4b143f59\asm-util-9.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.8\b9747a320844b6cb1eacd90d8ecfd260a16c01d3\asm-analysis-9.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.github.juuxel\unprotect-modlauncher\2.0.2\20d36922d7bb84c3185c213e935150584d6c7166\unprotect-modlauncher-2.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.github.juuxel\unprotect\2.0.2\d79e894ec170237a02281b45e3203df6306675d6\unprotect-2.0.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.8\18419ca5b77a2f81097c741e7872e6ab8d2f40d\asm-tree-9.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.8\dc19ecb3f7889b7860697215cae99c0f9b6f6b4b\asm-9.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarFileSystems\0.4.1\78f59f89defcd032ed788b151ca6a0d40ace796a\JarJarFileSystems-0.4.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.2.7\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\logging-1.2.7.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.22.1\d7e6693c2606cb7e7335047d7bb96dec52db5665\log4j-slf4j2-impl-2.22.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.1\17125bae1d965624e265ef49552f6465a2bfa307\antlr4-runtime-4.13.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.22.1\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\log4j-core-2.22.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.22.1\bea6fede6328fabafd7e68363161a7ea6605abd1\log4j-api-2.22.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.20.0\8f15415b022a25b473e8e16c28ae913186ffb9c4\jline-reader-3.20.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.20.0\d0ddcc708ddf527a3454c941b7b9225cc83a15ff\jline-terminal-3.20.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.15.1\f11560da189ab563a5c8e351941415430e9304ea\commons-io-2.15.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\32.1.2-jre\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\guava-32.1.2-jre.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.33.0\de2b60b62da487644fc11f734e73c8b0b431238f\checker-qual-3.33.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.18.0\89b684257096f548fa39a7df9fdaa409d4d4df91\error_prone_annotations-2.18.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\2.8\c85270e307e7b822f1086b93689124b89768e273\j2objc-annotations-2.8.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\73.2\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\icu4j-73.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\6.0.54\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\authlib-6.0.54.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.3.10\d15b53a14cf20fdcaa98f731af5dda654452c010\brigadier-1.3.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.16.0\4e3eb3d79888d76b54e28b350915b5dc3919c9de\commons-codec-1.16.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.97.Final\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\netty-buffer-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.97.Final\384ba4d75670befbedb45c4d3b497a93639c206d\netty-codec-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.97.Final\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\netty-common-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.97.Final\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\netty-handler-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.97.Final\cec8348108dc76c47cf87c669d514be52c922144\netty-resolver-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.97.Final\795da37ded759e862457a82d9d92c4d39ce8ecee\netty-transport-classes-epoll-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.26.0\659feffdd12280201c8aacb8f7be94f9a883c824\commons-compress-1.26.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\neoforge-21.1.215-minecraft-merged\1.21.1-loom.mappings.1_21_1.layered+hash.729445375-v2-neoforge-21.1.215\neoforge-21.1.215-minecraft-merged-1.21.1-loom.mappings.1_21_1.layered+hash.729445375-v2-neoforge-21.1.215.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\54188f271e388e7f313aea995e82f58ce2cdb809\netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\5514744c588190ffda076b35a9b8c9f24946a960\netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\thedarkcolour\kfflang-neoforge\5.9.0\f071c22862aaf86d5ba55865ce6890bab77ab9a0\kfflang-neoforge-5.9.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\thedarkcolour\kfflib-neoforge\5.9.0\110f041e8aac7e478db1d51b1d027bb4b032695\kfflib-neoforge-5.9.0.jar
+[Architectury Transformer DEBUG]  - C:\Users\koji\.gradle\caches\modules-2\files-2.1\thedarkcolour\kffmod-neoforge\5.9.0\5847cc89422531cc02330a6b6770ea55be5cfb05\kffmod-neoforge-5.9.0.jar
+[Architectury Transformer] Read classpath in 1.640 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\koji\Desktop\ArcSteam\Koko\common\build\devlibs\koko-common-2.0.0-dev.jar
+[Architectury Transformer DEBUG] Transforming 6 transformer(s) from C:\Users\koji\Desktop\ArcSteam\Koko\common\build\devlibs\koko-common-2.0.0-dev.jar to C:\Users\koji\AppData\Local\Temp\7888380194053334699.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@5be6e01c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@1c93084c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@6ef888f6
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@10e92f8f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@7ce3cb8e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeNeoForgeMod@78b66d36
+[Architectury Transformer DEBUG] Transforming from C:\Users\koji\Desktop\ArcSteam\Koko\common\build\devlibs\koko-common-2.0.0-dev.jar to C:\Users\koji\AppData\Local\Temp\7888380194053334699.jar with 6 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/Koko$KokoConfiguration with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/Koko with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/SkillsHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/SkillsHandler$SkillModifierApplier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/SkillsHandler$SkillSourceApplier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/attachments/PlayerSkills with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/attachments/PlayerSkills$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/content/Paths$DefaultSources with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/content/Paths$DefaultModifiers with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/content/Paths$DefaultFilters with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/content/Translatable with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/content/Paths with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler$BlockedPlayerInstance with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/BlockEventHandler$blockEvaluate$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/BlockEventHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/EntityEventHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler$playerEvaluate$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler$PlayerBlockScope with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/EntityEventHandler$entityEvaluate$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler$DefaultPlayerMessages with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler$BlockedItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/helpers/MainHelper with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$4 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$8 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$7 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$5 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$6 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$4 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/AbstractSkillSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/AbstractSkillSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockBreakSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockPlaceSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockInteractSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockInteractSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockBreakSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockPlaceSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityTameSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityInteractSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityKillSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityKillSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityTameSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityInteractSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerItemUseSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerJumpSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerCraftedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerAttackedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDamagedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDiedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerRunSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerJumpSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerTradeSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerTradeSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerForgedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerRunSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerStackDropSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerItemUseSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerForgedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerConsumedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerConsumedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDamagedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerCraftedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDiedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerStackDropSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerAttackedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/StatsRequestPayload with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/StatsResponsePayload$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/StatsRequestPayload$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/StatsResponsePayload with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/IncomingXpPayload with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/IncomingXpPayload$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/StatsRequestPayload$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/IncomingXpPayload$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/network/payloads/StatsResponsePayload$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\koji\AppData\Local\Temp\7888380194053334699.jar
+[Architectury Transformer] Listening at C:\Users\koji\Desktop\ArcSteam\Koko\common\build\devlibs\koko-common-2.0.0-dev.jar
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\koji\AppData\Local\Temp\7888380194053334699.jar] contains packages: dev.koji.koko, dev.koji.koko.common.models.modifiers.filters, dev.koji.koko.common.models.modifiers, dev.koji.koko.common.models.sources.player, dev.koji.koko.common.models.sources.entity, dev.koji.koko.common, dev.koji.koko.common.models.sources.block, dev.koji.koko.common.models.modifiers.player, dev.koji.koko.common.content, dev.koji.koko.common.network.payloads, dev.koji.koko.common.events, dev.koji.koko.common.attachments, dev.koji.koko.common.helpers, dev.koji.koko.common.models.sources, dev.koji.koko.common.models
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\koji\Desktop\ArcSteam\Koko\common\build\devlibs\koko-common-2.0.0-dev.jar
+[Architectury Transformer DEBUG] Classpath entry [C:\Users\koji\Desktop\ArcSteam\Koko\neoforge\build\resources\main] contains packages: 
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/Koko.class to dev/koji/koko/Koko.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping with Dirty Mappings...
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/Koko with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/Koko in 146.2 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/Koko$KokoConfiguration.class to dev/koji/koko/Koko$KokoConfiguration.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/Koko$KokoConfiguration with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/Koko$KokoConfiguration in 44.64 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/SkillsHandler.class to dev/koji/koko/common/SkillsHandler.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/SkillsHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/SkillsHandler in 41.55 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel.class to dev/koji/koko/common/models/SkillModel.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel in 32.71 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/attachments/PlayerSkills.class to dev/koji/koko/common/attachments/PlayerSkills.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/attachments/PlayerSkills with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/attachments/PlayerSkills in 26.06 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion.class to dev/koji/koko/common/models/SkillModel$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion in 16.48 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$1.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$1 in 15.59 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$2.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$2 in 16.31 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$3.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$3.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$3 in 16.16 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$4.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$4.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$4 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$4 in 12.78 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$5.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$5.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$5 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$5 in 14.31 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$6.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$6.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$6 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$6 in 19.71 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/AbstractSkillSource.class to dev/koji/koko/common/models/sources/AbstractSkillSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/AbstractSkillSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/AbstractSkillSource in 30.24 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/AbstractSkillSource$Companion.class to dev/koji/koko/common/models/sources/AbstractSkillSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/AbstractSkillSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/AbstractSkillSource$Companion in 17.87 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/block/BlockPlaceSource.class to dev/koji/koko/common/models/sources/block/BlockPlaceSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockPlaceSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/block/BlockPlaceSource in 17.25 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/block/BlockPlaceSource$Companion.class to dev/koji/koko/common/models/sources/block/BlockPlaceSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockPlaceSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/block/BlockPlaceSource$Companion in 18.68 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/SkillSourceFilter.class to dev/koji/koko/common/models/sources/SkillSourceFilter.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/SkillSourceFilter in 14.38 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/SkillSourceFilter$Companion.class to dev/koji/koko/common/models/sources/SkillSourceFilter$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/SkillSourceFilter$Companion in 14.87 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType.class to dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType in 24.86 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType$Companion.class to dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/SkillSourceFilter$FilterType$Companion in 16.53 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/block/BlockBreakSource.class to dev/koji/koko/common/models/sources/block/BlockBreakSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockBreakSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/block/BlockBreakSource in 15.14 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/block/BlockBreakSource$Companion.class to dev/koji/koko/common/models/sources/block/BlockBreakSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockBreakSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/block/BlockBreakSource$Companion in 10.76 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/block/BlockInteractSource.class to dev/koji/koko/common/models/sources/block/BlockInteractSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockInteractSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/block/BlockInteractSource in 12.38 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/block/BlockInteractSource$Companion.class to dev/koji/koko/common/models/sources/block/BlockInteractSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/block/BlockInteractSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/block/BlockInteractSource$Companion in 17.22 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/entity/EntityInteractSource.class to dev/koji/koko/common/models/sources/entity/EntityInteractSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityInteractSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/entity/EntityInteractSource in 15.42 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/entity/EntityInteractSource$Companion.class to dev/koji/koko/common/models/sources/entity/EntityInteractSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityInteractSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/entity/EntityInteractSource$Companion in 11.41 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/entity/EntityTameSource.class to dev/koji/koko/common/models/sources/entity/EntityTameSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityTameSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/entity/EntityTameSource in 10.09 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/entity/EntityTameSource$Companion.class to dev/koji/koko/common/models/sources/entity/EntityTameSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityTameSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/entity/EntityTameSource$Companion in 13.77 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/entity/EntityKillSource.class to dev/koji/koko/common/models/sources/entity/EntityKillSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityKillSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/entity/EntityKillSource in 11.81 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/entity/EntityKillSource$Companion.class to dev/koji/koko/common/models/sources/entity/EntityKillSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/entity/EntityKillSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/entity/EntityKillSource$Companion in 13.37 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerRunSource.class to dev/koji/koko/common/models/sources/player/PlayerRunSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerRunSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerRunSource in 11.82 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerRunSource$Companion.class to dev/koji/koko/common/models/sources/player/PlayerRunSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerRunSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerRunSource$Companion in 12.94 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerJumpSource.class to dev/koji/koko/common/models/sources/player/PlayerJumpSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerJumpSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerJumpSource in 14.07 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerJumpSource$Companion.class to dev/koji/koko/common/models/sources/player/PlayerJumpSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerJumpSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerJumpSource$Companion in 14.75 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerCraftedSource.class to dev/koji/koko/common/models/sources/player/PlayerCraftedSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerCraftedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerCraftedSource in 18.02 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerCraftedSource$Companion.class to dev/koji/koko/common/models/sources/player/PlayerCraftedSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerCraftedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerCraftedSource$Companion in 11.93 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerTradeSource.class to dev/koji/koko/common/models/sources/player/PlayerTradeSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerTradeSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerTradeSource in 12.02 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerTradeSource$Companion.class to dev/koji/koko/common/models/sources/player/PlayerTradeSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerTradeSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerTradeSource$Companion in 9.481 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerStackDropSource.class to dev/koji/koko/common/models/sources/player/PlayerStackDropSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerStackDropSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerStackDropSource in 9.588 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerStackDropSource$Companion.class to dev/koji/koko/common/models/sources/player/PlayerStackDropSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerStackDropSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerStackDropSource$Companion in 7.441 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerDamagedSource.class to dev/koji/koko/common/models/sources/player/PlayerDamagedSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDamagedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerDamagedSource in 8.829 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerDamagedSource$Companion.class to dev/koji/koko/common/models/sources/player/PlayerDamagedSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDamagedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerDamagedSource$Companion in 7.772 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerDiedSource.class to dev/koji/koko/common/models/sources/player/PlayerDiedSource.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDiedSource with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerDiedSource in 10.32 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/sources/player/PlayerDiedSource$Companion.class to dev/koji/koko/common/models/sources/player/PlayerDiedSource$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/sources/player/PlayerDiedSource$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/sources/player/PlayerDiedSource$Companion in 10.28 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$7.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$7.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$7 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$7 in 6.487 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/AbstractSkillModifier.class to dev/koji/koko/common/models/modifiers/AbstractSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/AbstractSkillModifier in 8.093 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/AbstractSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/AbstractSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/AbstractSkillModifier$Companion in 6.846 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier.class to dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier in 9.185 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion in 5.712 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$1 in 7.729 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter.class to dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter in 8.165 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter$Companion.class to dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/AbstractSkillModifierFilter$Companion in 12.90 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter in 13.43 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion in 11.12 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$1 in 9.069 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$2 in 8.086 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$3.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$3.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$CODEC$1$3 in 9.192 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$1.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$1 in 7.683 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$2.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$2 in 7.162 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$3.class to dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$3.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/AboveSkillModifierFilter$Companion$STREAM_CODEC$3 in 7.234 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter.class to dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter in 7.220 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion.class to dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion in 6.830 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$1 in 5.871 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$2 in 6.684 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$3.class to dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$3.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$3 in 6.874 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$4.class to dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$4.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$4 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/RangeSkillModifierFilter$Companion$CODEC$1$4 in 6.298 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter in 6.164 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion in 5.763 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$1 in 8.062 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$2 in 5.946 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$3.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$3.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$CODEC$1$3 in 7.224 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$1.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$1 in 5.814 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$2.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$2 in 6.863 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$3.class to dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$3.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$3 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BellowSkillModifierFilter$Companion$STREAM_CODEC$3 in 5.847 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter.class to dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter in 7.103 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion.class to dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion in 8.588 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/filters/BlockedSkillModifierFilter$Companion$CODEC$1$1 in 7.355 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/AttributeSkillModifier$Companion$CODEC$1$2 in 6.013 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier.class to dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier in 7.929 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion in 7.072 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$1 in 8.075 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/CraftingSkillModifier$Companion$CODEC$1$2 in 6.975 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier.class to dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier in 8.075 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion in 7.433 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$1 in 8.561 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ForgeSkillModifier$Companion$CODEC$1$2 in 7.168 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier.class to dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier in 7.268 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion in 7.869 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$1 in 7.225 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemAttackSkillModifier$Companion$CODEC$1$2 in 7.117 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier.class to dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier in 7.463 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion in 7.395 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$1 in 6.109 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemUseSkillModifier$Companion$CODEC$1$2 in 7.518 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier.class to dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier in 6.580 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion in 7.740 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$1 in 6.136 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ItemConsumeSkillModifier$Companion$CODEC$1$2 in 8.535 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier.class to dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier in 7.393 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion.class to dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion in 7.504 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$1.class to dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$1 in 7.182 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$2.class to dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/modifiers/player/ArmorEquipSkillModifier$Companion$CODEC$1$2 in 7.996 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$8.class to dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$8.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$8 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillModel$Companion$CODEC$1$8 in 6.170 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/attachments/PlayerSkills$Companion.class to dev/koji/koko/common/attachments/PlayerSkills$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/attachments/PlayerSkills$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/attachments/PlayerSkills$Companion in 6.730 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillData.class to dev/koji/koko/common/models/SkillData.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillData in 8.255 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillData$Companion.class to dev/koji/koko/common/models/SkillData$Companion.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillData$Companion in 6.607 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillData$Companion$CODEC$1$1.class to dev/koji/koko/common/models/SkillData$Companion$CODEC$1$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$CODEC$1$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillData$Companion$CODEC$1$1 in 7.414 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillData$Companion$CODEC$1$2.class to dev/koji/koko/common/models/SkillData$Companion$CODEC$1$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$CODEC$1$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillData$Companion$CODEC$1$2 in 7.895 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$1.class to dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$1.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$1 in 7.674 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$2.class to dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$2.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$2 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/models/SkillData$Companion$STREAM_CODEC$2 in 6.205 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/events/PlayerEventHandler.class to dev/koji/koko/common/events/PlayerEventHandler.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/events/PlayerEventHandler in 38.33 ms
+[Architectury Transformer DEBUG] Transforming from dev/koji/koko/common/events/PlayerEventHandler$PlayerBlockScope.class to dev/koji/koko/common/events/PlayerEventHandler$PlayerBlockScope.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x0000025a81084920@5ae50ce6
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing dev/koji/koko/common/events/PlayerEventHandler$PlayerBlockScope with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed dev/koji/koko/common/events/PlayerEventHandler$PlayerBlockScope in 16.51 ms
