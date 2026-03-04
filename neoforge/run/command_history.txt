@@ -1,3 +1,0 @@
-/koko add d
-/koko add d 1 1
-/koko add d 1 Dev
