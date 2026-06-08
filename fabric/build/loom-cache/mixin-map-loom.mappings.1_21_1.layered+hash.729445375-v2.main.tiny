@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	dev/koji/mixins/AnvilMenuMixin	I	RESULT_SLOT	field_41900
+FIELD	dev/koji/mixins/MerchantResultSlotMixin	Lnet/minecraft/world/item/trading/Merchant;	merchant	field_7858

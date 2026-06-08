@@ -1,0 +1,12 @@
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\server\FabricServerRegistry.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\common\FabricPlayerEventHandler.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\client\FabricClientEventHandler.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\common\FabricBlockEventHandler.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\client\FabricClientRegistry.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\client\FabricKokoClient.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\common\FabricCommonRegistry.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\server\FabricServerNetwork.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\client\FabricClientNetwork.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\FabricSkillsHandler.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\common\FabricEntityEventHandler.kt
+C:\Users\koji\Desktop\IdeaProjects\koko\fabric\src\main\kotlin\dev\koji\fabric\FabricKoko.kt

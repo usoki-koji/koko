@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "dev/koji/mixins/AnvilMenuMixin": {
+      "createResult": "Lnet/minecraft/class_1706;method_24928()V",
+      "onTake": "Lnet/minecraft/class_1706;method_24923(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V"
+    },
+    "dev/koji/mixins/LivingEntityMixin": {
+      "eat(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/food/FoodProperties;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_1309;method_18866(Lnet/minecraft/class_1937;Lnet/minecraft/class_1799;Lnet/minecraft/class_4174;)Lnet/minecraft/class_1799;"
+    },
+    "dev/koji/mixins/MerchantResultSlotMixin": {
+      "onTake": "Lnet/minecraft/class_1727;method_7667(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V"
+    },
+    "dev/koji/mixins/TamableEntityMixin": {
+      "tame": "Lnet/minecraft/class_1321;method_6170(Lnet/minecraft/class_1657;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/koji/mixins/AnvilMenuMixin": {
+        "createResult": "Lnet/minecraft/class_1706;method_24928()V",
+        "onTake": "Lnet/minecraft/class_1706;method_24923(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V"
+      },
+      "dev/koji/mixins/LivingEntityMixin": {
+        "eat(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/food/FoodProperties;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_1309;method_18866(Lnet/minecraft/class_1937;Lnet/minecraft/class_1799;Lnet/minecraft/class_4174;)Lnet/minecraft/class_1799;"
+      },
+      "dev/koji/mixins/MerchantResultSlotMixin": {
+        "onTake": "Lnet/minecraft/class_1727;method_7667(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V"
+      },
+      "dev/koji/mixins/TamableEntityMixin": {
+        "tame": "Lnet/minecraft/class_1321;method_6170(Lnet/minecraft/class_1657;)V"
+      }
+    }
+  }
+}

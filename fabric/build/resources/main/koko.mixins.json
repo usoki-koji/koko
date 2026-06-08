@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "dev.koji.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "AnvilMenuMixin"
+  ],
+  "mixins": [
+    "AnvilMenuMixin",
+    "LivingEntityMixin",
+    "TamableEntityMixin",
+    "MerchantResultSlotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.koji.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "CraftingMenuMixin"
+  ],
+  "mixins": [
+    "CraftingMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
