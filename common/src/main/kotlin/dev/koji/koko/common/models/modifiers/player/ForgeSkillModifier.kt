@@ -3,6 +3,7 @@ package dev.koji.koko.common.models.modifiers.player
 import com.mojang.serialization.Codec
 import com.mojang.serialization.MapCodec
 import com.mojang.serialization.codecs.RecordCodecBuilder
+import dev.koji.koko.Koko
 import dev.koji.koko.common.SkillsHandler
 import dev.koji.koko.common.content.Paths
 import dev.koji.koko.common.events.PlayerEventHandler
@@ -13,7 +14,7 @@ import dev.koji.koko.common.models.modifiers.filters.BlockedSkillModifierFilter
 import net.minecraft.world.entity.player.Player
 
 class ForgeSkillModifier(
-    val recipe: String,
+    val target: String,
     val filter: AbstractSkillModifierFilter
 ) : AbstractSkillModifier() {
     override val type: String = Paths.DefaultModifiers.PLAYER_FORGE
@@ -26,8 +27,20 @@ class ForgeSkillModifier(
     }
 
     override fun apply(applier: SkillsHandler.SkillModifierApplier, player: Player) {
+        val group = Koko.skillsHandler.getGroup(player, MainHelper.safeParseResource(target))
+
+        if (group != null) {
+            for (listedTarget in group.content) {
+                PlayerEventHandler.addBlockedItem(
+                    player.uuid, MainHelper.safeParseResource(listedTarget), PlayerEventHandler.PlayerBlockScope.FORGE
+                )
+            }
+
+            return
+        }
+
         PlayerEventHandler.addBlockedItem(
-            player.uuid, MainHelper.safeParseResource(recipe), PlayerEventHandler.PlayerBlockScope.FORGE
+            player.uuid, MainHelper.safeParseResource(target), PlayerEventHandler.PlayerBlockScope.FORGE
         )
     }
 
@@ -36,14 +49,14 @@ class ForgeSkillModifier(
         player: Player
     ) {
         PlayerEventHandler.removeBlockedItem(
-            player.uuid, MainHelper.safeParseResource(recipe), PlayerEventHandler.PlayerBlockScope.FORGE
+            player.uuid, MainHelper.safeParseResource(target), PlayerEventHandler.PlayerBlockScope.FORGE
         )
     }
 
     companion object {
         val CODEC: MapCodec<ForgeSkillModifier> = RecordCodecBuilder.mapCodec { instance ->
             instance.group(
-                Codec.STRING.fieldOf("recipe").forGetter(ForgeSkillModifier::recipe),
+                Codec.STRING.fieldOf("recipe").forGetter(ForgeSkillModifier::target),
                 AbstractSkillModifierFilter.CODEC.fieldOf("filter").forGetter(ForgeSkillModifier::filter)
             ).apply(instance, ::ForgeSkillModifier)
         }

@@ -15,7 +15,8 @@ class IncomingXpPayload(val skill: ResourceLocation, val xp: Double) : CustomPac
             ::IncomingXpPayload
         )
 
-        val TYPE = CustomPacketPayload.Type<IncomingXpPayload>(Koko.toPath("skill_payload"))
+        val ID = Koko.toPath("incoming_xp_payload")
+        val TYPE = CustomPacketPayload.Type<IncomingXpPayload>(ID)
     }
 
     override fun type(): CustomPacketPayload.Type<out CustomPacketPayload> = TYPE

@@ -3,6 +3,7 @@ package dev.koji.koko.common.models.modifiers.player
 import com.mojang.serialization.Codec
 import com.mojang.serialization.MapCodec
 import com.mojang.serialization.codecs.RecordCodecBuilder
+import dev.koji.koko.Koko
 import dev.koji.koko.common.SkillsHandler
 import dev.koji.koko.common.content.Paths
 import dev.koji.koko.common.events.PlayerEventHandler
@@ -13,7 +14,7 @@ import dev.koji.koko.common.models.modifiers.filters.BlockedSkillModifierFilter
 import net.minecraft.world.entity.player.Player
 
 class ArmorEquipSkillModifier(
-    val item: String,
+    val target: String,
     val filter: AbstractSkillModifierFilter
 ) : AbstractSkillModifier() {
     override val type: String = Paths.DefaultModifiers.PLAYER_ARMOR
@@ -26,8 +27,20 @@ class ArmorEquipSkillModifier(
     }
 
     override fun apply(applier: SkillsHandler.SkillModifierApplier, player: Player) {
+        val group = Koko.skillsHandler.getGroup(player, MainHelper.safeParseResource(target))
+
+        if (group != null) {
+            for (listedTarget in group.content) {
+                PlayerEventHandler.addBlockedItem(
+                    player.uuid, MainHelper.safeParseResource(listedTarget), PlayerEventHandler.PlayerBlockScope.ARMOR
+                )
+            }
+
+            return
+        }
+
         PlayerEventHandler.addBlockedItem(
-            player.uuid, MainHelper.safeParseResource(item), PlayerEventHandler.PlayerBlockScope.ARMOR
+            player.uuid, MainHelper.safeParseResource(target), PlayerEventHandler.PlayerBlockScope.ARMOR
         )
     }
 
@@ -36,14 +49,14 @@ class ArmorEquipSkillModifier(
         player: Player
     ) {
         PlayerEventHandler.removeBlockedItem(
-            player.uuid, MainHelper.safeParseResource(item), PlayerEventHandler.PlayerBlockScope.ARMOR
+            player.uuid, MainHelper.safeParseResource(target), PlayerEventHandler.PlayerBlockScope.ARMOR
         )
     }
 
     companion object {
         val CODEC: MapCodec<ArmorEquipSkillModifier> = RecordCodecBuilder.mapCodec { instance ->
             instance.group(
-                Codec.STRING.fieldOf("item").forGetter(ArmorEquipSkillModifier::item),
+                Codec.STRING.fieldOf("target").forGetter(ArmorEquipSkillModifier::target),
                 AbstractSkillModifierFilter.CODEC.fieldOf("filter").forGetter(ArmorEquipSkillModifier::filter)
             ).apply(instance, ::ArmorEquipSkillModifier)
         }

@@ -10,16 +10,14 @@ import net.minecraft.resources.ResourceLocation
 
 class StatsRequestPayload : CustomPacketPayload {
     companion object {
-        private val MAP_CODEC = ByteBufCodecs.map(
-            { _ -> mapOf<ResourceLocation, SkillData>() },
-            ResourceLocation.STREAM_CODEC,
-            SkillData.STREAM_CODEC
-        )
+        val STREAM_CODEC: StreamCodec<RegistryFriendlyByteBuf, StatsRequestPayload> =
+            StreamCodec.of(
+                { _, _ -> },
+                { StatsRequestPayload() }
+            )
 
-        val STREAM_CODEC: StreamCodec<RegistryFriendlyByteBuf, StatsResponsePayload> =
-            MAP_CODEC.map(::StatsResponsePayload) { it.skillData }
-
-        val TYPE = CustomPacketPayload.Type<StatsResponsePayload>(Koko.toPath("skills_payload"))
+        val ID = Koko.toPath("stats_request_payload")
+        val TYPE = CustomPacketPayload.Type<StatsRequestPayload>(ID)
     }
 
     override fun type(): CustomPacketPayload.Type<out CustomPacketPayload> = TYPE

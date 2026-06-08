@@ -41,6 +41,11 @@ subprojects {
             name = "Iron's Maven - Release"
             url = "https://code.redspace.io/releases"
         }
+
+        maven {
+            name 'Xander Maven'
+            url 'https://maven.isxander.dev/releases'
+        }
     }
 
     loom {

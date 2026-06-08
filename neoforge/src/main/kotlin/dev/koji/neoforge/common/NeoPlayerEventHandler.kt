@@ -56,7 +56,6 @@ object NeoPlayerEventHandler {
         PlayerEventHandler.playerEvaluate(player, Paths.DefaultSources.PLAYER_ITEM_USE, item)
     }
 
-    //TODO
     @SubscribeEvent
     fun onItemAttack(event: AttackEntityEvent) {
         val player = event.entity
@@ -75,7 +74,6 @@ object NeoPlayerEventHandler {
         PlayerEventHandler.playerEvaluate(player, Paths.DefaultSources.PLAYER_ATTACKED, item)
     }
 
-    //TODO
     @SubscribeEvent
     fun onItemConsume(event: LivingEntityUseItemEvent.Start) {
         val player = (event.entity as? Player) ?: return
@@ -97,7 +95,6 @@ object NeoPlayerEventHandler {
         PlayerEventHandler.playerEvaluate(player, Paths.DefaultSources.PLAYER_CONSUMED, item)
     }
 
-    //TODO
     @SubscribeEvent
     fun onAnvilRepair(event: AnvilRepairEvent) {
         val player = event.entity
@@ -107,7 +104,6 @@ object NeoPlayerEventHandler {
         PlayerEventHandler.playerEvaluate(player, Paths.DefaultSources.PLAYER_FORGED, event.output)
     }
 
-    //TODO
     @SubscribeEvent
     fun onAnvilUpdate(event: AnvilUpdateEvent) {
         val player = event.player

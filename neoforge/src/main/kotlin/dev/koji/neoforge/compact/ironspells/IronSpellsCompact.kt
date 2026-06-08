@@ -1,7 +1,6 @@
 package dev.koji.neoforge.compact.ironspells
 
 import dev.koji.koko.Koko
-import dev.koji.neoforge.NeoKokoConfig
 import dev.koji.koko.common.content.Translatable
 import dev.koji.koko.common.helpers.MainHelper
 import dev.koji.koko.common.models.modifiers.AbstractSkillModifier
@@ -24,7 +23,6 @@ import java.util.*
 object IronSpellsCompact {
     private val BLOCKED_PLAYER_INSTANCES = mutableSetOf<BlockedSpellInstance>()
 
-    //TODO
     @SubscribeEvent
     fun onSpellPreCast(event: SpellPreCastEvent) {
         val player = event.entity
@@ -40,7 +38,7 @@ object IronSpellsCompact {
 
         MainHelper.sendMessageToPlayer(player, DefaultIronMessages.UNABLE_TO_CAST)
     }
-    //TODO
+
     @SubscribeEvent
     fun onSpellCast(event: SpellOnCastEvent) {
         val spellData = SpellData(MainHelper.safeParseResource(event.spellId), event.spellLevel, false)
@@ -48,7 +46,6 @@ object IronSpellsCompact {
         this.spellEvaluate(Sources.PLAYER_SPELL_CAST, spellData, event.entity)
     }
 
-    //TODO
     @SubscribeEvent
     fun onSpellInscribe(event: InscribeSpellEvent) {
         val player = event.entity
@@ -185,7 +182,7 @@ object IronSpellsCompact {
     }
 
     object DefaultIronMessages {
-        val UNABLE_TO_CAST = NeoKokoConfig.getMessageConfig(Translatable.MESSAGES_ISS_UNABLE_TO_CAST)
-        val UNABLE_TO_INSCRIBE = NeoKokoConfig.getMessageConfig(Translatable.MESSAGES_ISS_UNABLE_TO_INSCRIBE)
+        val UNABLE_TO_CAST = Koko.config.issUnableToCast
+        val UNABLE_TO_INSCRIBE = Koko.config.issUnableToInscribe
     }
 }

@@ -3,6 +3,7 @@ package dev.koji.neoforge.compact.curios.modifiers
 import com.mojang.serialization.Codec
 import com.mojang.serialization.MapCodec
 import com.mojang.serialization.codecs.RecordCodecBuilder
+import dev.koji.koko.Koko
 import dev.koji.koko.common.SkillsHandler
 import dev.koji.koko.common.events.PlayerEventHandler
 import dev.koji.koko.common.helpers.MainHelper
@@ -35,6 +36,18 @@ class CuriosEquipSkillEffect(
         applier: SkillsHandler.SkillModifierApplier,
         player: Player
     ) {
+        val group = Koko.skillsHandler.getGroup(player, MainHelper.safeParseResource(curio))
+
+        if (group != null) {
+            for (listedTarget in group.content) {
+                PlayerEventHandler.addBlockedItem(
+                    player.uuid, MainHelper.safeParseResource(listedTarget), PlayerEventHandler.PlayerBlockScope.CURIOS
+                )
+            }
+
+            return
+        }
+
         PlayerEventHandler.removeBlockedItem(
             player.uuid, MainHelper.safeParseResource(curio), PlayerEventHandler.PlayerBlockScope.CURIOS
         )

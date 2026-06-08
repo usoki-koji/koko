@@ -2,6 +2,7 @@ package dev.koji.koko.common.models.sources
 
 import com.mojang.serialization.Codec
 import com.mojang.serialization.codecs.RecordCodecBuilder
+import net.minecraft.resources.ResourceLocation
 import net.minecraft.util.StringRepresentable
 import java.util.*
 
@@ -16,7 +17,7 @@ data class SkillSourceFilter(
             return this.name.lowercase(Locale.ROOT)
         }
 
-        companion object{
+        companion object {
             val CODEC: StringRepresentable.EnumCodec<FilterType> = StringRepresentable.fromEnum(FilterType::values)
         }
     }

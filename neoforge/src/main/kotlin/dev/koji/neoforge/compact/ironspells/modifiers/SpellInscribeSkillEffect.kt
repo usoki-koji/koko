@@ -35,6 +35,18 @@ class SpellInscribeSkillEffect(
     override fun apply(applier: SkillsHandler.SkillModifierApplier, player: Player) {
         val filter = applier.filter as? SpellInscribeSkillEffectFilter ?: return
 
+        val group = Koko.skillsHandler.getGroup(player, MainHelper.safeParseResource(spell))
+
+        if (group != null) {
+            for (listedTarget in group.content) {
+                IronSpellsCompact.addBlockedSpell(
+                    player.uuid, MainHelper.safeParseResource(listedTarget), filter.spellLevel,  IronSpellsCompact.ISSBlockScope.INSCRIBE
+                )
+            }
+
+            return
+        }
+
         IronSpellsCompact.addBlockedSpell(
             player.uuid, MainHelper.safeParseResource(spell), filter.spellLevel, IronSpellsCompact.ISSBlockScope.INSCRIBE
         )

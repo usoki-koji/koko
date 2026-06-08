@@ -1,6 +1,6 @@
 package dev.koji.neoforge.compact.curios
 
-import dev.koji.neoforge.NeoKokoConfig
+import dev.koji.koko.Koko
 import dev.koji.koko.common.content.Translatable
 import dev.koji.koko.common.events.PlayerEventHandler
 import dev.koji.koko.common.helpers.MainHelper
@@ -21,7 +21,6 @@ import top.theillusivec4.curios.api.event.CurioCanEquipEvent
 object CuriosCompact {
     private val BLOCKED_PLAYER_INSTANCES = mutableSetOf<PlayerEventHandler.BlockedPlayerInstance>()
 
-    //TODO
     @SubscribeEvent
     fun onPlayerTick(event: PlayerTickEvent.Post) {
         val player = event.entity
@@ -52,7 +51,7 @@ object CuriosCompact {
             break
         }
     }
-    //TODO
+
     @SubscribeEvent
     fun onCuriosSlotEquipTry(event: CurioCanEquipEvent) {
         val player = (event.entity as? Player) ?: return
@@ -65,7 +64,7 @@ object CuriosCompact {
 
         MainHelper.sendMessageToPlayer(player, DefaultCuriosMessages.UNABLE_TO_WEAR)
     }
-    //TODO
+
     fun register() {
         AbstractSkillSource.registerCodec(Sources.PLAYER_CURIOUS_USE, CuriosTickSource.Companion.CODEC)
         AbstractSkillModifier.registerCodec(Modifiers.PLAYER_CURIOS_EQUIP, CuriosEquipSkillEffect.Companion.CODEC)
@@ -80,6 +79,6 @@ object CuriosCompact {
     }
 
     object DefaultCuriosMessages {
-        val UNABLE_TO_WEAR = NeoKokoConfig.getMessageConfig(Translatable.MESSAGES_CURIOS_UNABLE_TO_WEAR)
+        val UNABLE_TO_WEAR = Koko.config.curiosUnableToWear
     }
 }

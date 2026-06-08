@@ -1,6 +1,8 @@
 package dev.koji.koko.common
 
+import dev.koji.koko.Loggable
 import dev.koji.koko.common.attachments.PlayerSkills
+import dev.koji.koko.common.models.GroupData
 import dev.koji.koko.common.models.SkillData
 import dev.koji.koko.common.models.SkillModel
 import dev.koji.koko.common.models.modifiers.AbstractSkillModifier
@@ -12,7 +14,7 @@ import net.minecraft.resources.ResourceLocation
 import net.minecraft.world.entity.player.Player
 import net.minecraft.world.level.Level
 
-interface SkillsHandler {
+interface SkillsHandler : Loggable {
     fun syncSkills(player: Player)
     fun syncModifiers(player: Player)
 
@@ -36,6 +38,11 @@ interface SkillsHandler {
 
     fun getSkill(player: Player, skill: ResourceLocation): SkillData?
     fun getSkills(player: Player): PlayerSkills
+
+    fun getGroup(player: Player, group: ResourceLocation): GroupData?
+    fun getGroup(level: Level, group: ResourceLocation): GroupData?
+
+    fun getGroups(level: Level): Set<Map.Entry<ResourceKey<GroupData>, GroupData>>?
 
     fun getSkillModel(player: Player, skill: ResourceLocation): SkillModel?
     fun getSkillModel(level: Level, skill: ResourceLocation): SkillModel?

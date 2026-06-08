@@ -1,9 +1,11 @@
 package dev.koji.neoforge
 
 import dev.koji.koko.Koko
-import dev.koji.neoforge.common.CommonRegistry
+import dev.koji.neoforge.common.NeoCommonRegistry
 import dev.koji.koko.common.SkillsHandler
 import dev.koji.koko.common.attachments.PlayerSkills
+import dev.koji.koko.common.helpers.MainHelper
+import dev.koji.koko.common.models.GroupData
 import dev.koji.koko.common.models.SkillData
 import dev.koji.koko.common.models.SkillModel
 import dev.koji.koko.common.models.sources.SkillSourceFilter
@@ -24,10 +26,12 @@ object NeoSkillsHandler : SkillsHandler {
         val skillModels = this.getSkillsModels(level)
             ?: return Koko.LOGGER.error("Unable to find SkillsModels in level context!")
 
-        val playerSkills = this.getSkills(player)
+        var playerSkills = this.getSkills(player)
 
         for (entry in skillModels)
-            playerSkills.putIfAbsent(entry.key.location(), SkillData(entry.value.defaultXp, false))
+            playerSkills = playerSkills.putIfAbsent(entry.key.location(), SkillData(entry.value.defaultXp, false))
+
+        player.setData(NeoCommonRegistry.PLAYER_SKILLS, playerSkills)
     }
 
     override fun syncModifiers(player: Player) {
@@ -94,7 +98,7 @@ object NeoSkillsHandler : SkillsHandler {
     override fun updateXp(player: Player, skill: ResourceLocation, amount: Double) {
         if (player.level().isClientSide) return
 
-        val playerSkills = player.getData(CommonRegistry.PLAYER_SKILLS)
+        val playerSkills = player.getData(NeoCommonRegistry.PLAYER_SKILLS)
         val playerSkill = playerSkills.getSkill(skill)
             ?: return Koko.LOGGER.warn("Unable to find skill with location $skill!")
 
@@ -108,12 +112,12 @@ object NeoSkillsHandler : SkillsHandler {
         val maxLevel = if (playerSkill.isUnlocked) skillModel.unlockedMaxLevel else skillModel.maxLevel
         val maxXp = getXpToLevelUp(maxLevel).toDouble()
 
-        playerSkill.xp = (playerSkill.xp + amount).coerceIn(0.0, maxXp)
+        player.setData(
+            NeoCommonRegistry.PLAYER_SKILLS,
+            playerSkills.updateSkill(skill, (playerSkill.xp + amount).coerceIn(0.0, maxXp))
+        )
 
         PacketDistributor.sendToPlayer(player as ServerPlayer, IncomingXpPayload(skill, playerSkill.xp))
-
-        //TODO
-        //this.syncEffects(player)
     }
 
     override fun replaceSkill(player: Player, skill: ResourceLocation, data: SkillData) {
@@ -123,9 +127,7 @@ object NeoSkillsHandler : SkillsHandler {
     }
 
     override fun replaceSkills(player: Player, skills: Map<ResourceLocation, SkillData>) {
-        val playerSkills = this.getSkills(player)
-
-        playerSkills.replace(skills)
+        player.setData(NeoCommonRegistry.PLAYER_SKILLS, PlayerSkills(skills))
     }
 
     override fun getXpToLevelUp(level: Int): Int = (100 + 25 * level + 5 * level * level)
@@ -154,13 +156,31 @@ object NeoSkillsHandler : SkillsHandler {
     override fun getSkill(player: Player, skill: ResourceLocation): SkillData? =
         this.getSkills(player).getSkill(skill)
 
-    override fun getSkills(player: Player): PlayerSkills = player.getData(CommonRegistry.PLAYER_SKILLS)
+    override fun getSkills(player: Player): PlayerSkills = player.getData(NeoCommonRegistry.PLAYER_SKILLS)
+
+    override fun getGroup(player: Player, group: ResourceLocation): GroupData? {
+        return this.getGroup(player.level(), group)
+    }
+
+    override fun getGroup(level: Level, group: ResourceLocation): GroupData? {
+        val registry = level.registryAccess().registry(NeoCommonRegistry.GROUPS_REGISTRY)
+
+        return registry.map {
+            it.get(group) ?: it.first { data -> MainHelper.safeParseResource(data.identifier) == group }
+        }.orElse(null)
+    }
+
+    override fun getGroups(level: Level): Set<Map.Entry<ResourceKey<GroupData>, GroupData>>? {
+        val registry = level.registryAccess().registry(NeoCommonRegistry.GROUPS_REGISTRY)
+
+        return registry.map { it.entrySet() }.orElse(null)
+    }
 
     override fun getSkillModel(player: Player, skill: ResourceLocation): SkillModel? =
         this.getSkillModel(player.level(), skill)
 
     override fun getSkillModel(level: Level, skill: ResourceLocation): SkillModel? {
-        val registry = level.registryAccess().registry(CommonRegistry.SKILL_REGISTRY)
+        val registry = level.registryAccess().registry(NeoCommonRegistry.SKILL_REGISTRY)
 
         return registry.map { it.get(skill) }.orElse(null)
     }
@@ -169,7 +189,7 @@ object NeoSkillsHandler : SkillsHandler {
         this.getSkillsModels(player.level())
 
     override fun getSkillsModels(level: Level): Set<Map.Entry<ResourceKey<SkillModel>, SkillModel>>? {
-        val registry = level.registryAccess().registry(CommonRegistry.SKILL_REGISTRY)
+        val registry = level.registryAccess().registry(NeoCommonRegistry.SKILL_REGISTRY)
 
         return registry.map { it.entrySet() }.orElse(null)
     }

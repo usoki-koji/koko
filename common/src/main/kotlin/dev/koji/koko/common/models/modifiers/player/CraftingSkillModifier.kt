@@ -3,6 +3,7 @@ package dev.koji.koko.common.models.modifiers.player
 import com.mojang.serialization.Codec
 import com.mojang.serialization.MapCodec
 import com.mojang.serialization.codecs.RecordCodecBuilder
+import dev.koji.koko.Koko
 import dev.koji.koko.common.SkillsHandler
 import dev.koji.koko.common.content.Paths
 import dev.koji.koko.common.events.PlayerEventHandler
@@ -13,7 +14,7 @@ import dev.koji.koko.common.models.modifiers.filters.BlockedSkillModifierFilter
 import net.minecraft.world.entity.player.Player
 
 class CraftingSkillModifier(
-    val recipe: String,
+    val target: String,
     val filter: AbstractSkillModifierFilter
 ) : AbstractSkillModifier() {
     override val type: String = Paths.DefaultModifiers.PLAYER_CRAFT
@@ -26,8 +27,20 @@ class CraftingSkillModifier(
     }
 
     override fun apply(applier: SkillsHandler.SkillModifierApplier, player: Player) {
+        val group = Koko.skillsHandler.getGroup(player, MainHelper.safeParseResource(target))
+
+        if (group != null) {
+            for (listedTarget in group.content) {
+                PlayerEventHandler.addBlockedItem(
+                    player.uuid, MainHelper.safeParseResource(listedTarget), PlayerEventHandler.PlayerBlockScope.CRAFT
+                )
+            }
+
+            return
+        }
+
         PlayerEventHandler.addBlockedItem(
-            player.uuid, MainHelper.safeParseResource(recipe), PlayerEventHandler.PlayerBlockScope.CRAFT
+            player.uuid, MainHelper.safeParseResource(target), PlayerEventHandler.PlayerBlockScope.CRAFT
         )
     }
 
@@ -36,14 +49,14 @@ class CraftingSkillModifier(
         player: Player
     ) {
         PlayerEventHandler.removeBlockedItem(
-            player.uuid, MainHelper.safeParseResource(recipe), PlayerEventHandler.PlayerBlockScope.CRAFT
+            player.uuid, MainHelper.safeParseResource(target), PlayerEventHandler.PlayerBlockScope.CRAFT
         )
     }
 
     companion object {
         val CODEC: MapCodec<CraftingSkillModifier> = RecordCodecBuilder.mapCodec { instance ->
             instance.group(
-                Codec.STRING.fieldOf("recipe").forGetter(CraftingSkillModifier::recipe),
+                Codec.STRING.fieldOf("recipe").forGetter(CraftingSkillModifier::target),
                 AbstractSkillModifierFilter.CODEC.fieldOf("filter").forGetter(CraftingSkillModifier::filter)
             ).apply(instance, ::CraftingSkillModifier)
         }

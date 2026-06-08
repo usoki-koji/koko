@@ -2,32 +2,41 @@ package dev.koji.koko.common.attachments
 
 import com.mojang.serialization.Codec
 import com.mojang.serialization.codecs.RecordCodecBuilder
+import dev.koji.koko.Loggable
 import dev.koji.koko.common.models.SkillData
 import net.minecraft.resources.ResourceLocation
+import org.jetbrains.annotations.ApiStatus
 
-class PlayerSkills(newSkillsData: Map<ResourceLocation, SkillData>) {
-    private val skillsData = newSkillsData.toMutableMap()
-
+data class PlayerSkills(private val skillsData: Map<ResourceLocation, SkillData>) : Loggable {
     constructor() : this(emptyMap())
 
     fun getSkill(skill: ResourceLocation): SkillData? = skillsData[skill]
 
     fun getAllSkills(): Map<ResourceLocation, SkillData> = skillsData
 
-    fun put(skill: ResourceLocation, data: SkillData) {
-        skillsData[skill] = data
+    @ApiStatus.Internal
+    fun put(skill: ResourceLocation, data: SkillData): PlayerSkills {
+        val newSkillsData = skillsData.toMutableMap()
+
+        newSkillsData[skill] = data
+
+        return this.copy(skillsData = newSkillsData)
     }
 
-    fun putIfAbsent(skill: ResourceLocation, data: SkillData) {
-        if (skillsData[skill] != null) return
+    @ApiStatus.Internal
+    fun putIfAbsent(skill: ResourceLocation, data: SkillData): PlayerSkills {
+        if (skillsData[skill] != null) return this
 
-        put(skill, data)
+        return this.put(skill, data)
     }
 
-    fun replace(newSkillsData: Map<ResourceLocation, SkillData>) {
-        skillsData.clear()
+    fun updateSkill(skill: ResourceLocation, xp: Double? = null, isUnlocked: Boolean? = false): PlayerSkills {
+        val currentData = this.getSkill(skill)
 
-        skillsData.putAll(newSkillsData)
+        return this.put(skill, SkillData(
+            xp = xp ?: (currentData?.xp ?: 0.0),
+            isUnlocked = isUnlocked ?: (currentData?.isUnlocked ?: false)
+        ))
     }
 
     companion object {

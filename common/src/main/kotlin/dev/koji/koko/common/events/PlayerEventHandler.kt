@@ -160,14 +160,14 @@ object PlayerEventHandler {
 
     data class BlockedItem(val location: ResourceLocation, val scopes: MutableSet<PlayerBlockScope>)
 
-    enum class PlayerBlockScope { USE, ATTACK, CONSUME, CRAFT, FORGE, ARMOR, CURIOS, ISPELL }
+    enum class PlayerBlockScope { USE, ATTACK, CONSUME, CRAFT, FORGE, ARMOR, CURIOS }
 
     object DefaultPlayerMessages {
-        val UNABLE_TO_USE = Koko.config.getMessageConfig(Translatable.MESSAGES_UNABLE_TO_USE)
-        val UNABLE_TO_ATTACK = Koko.config.getMessageConfig(Translatable.MESSAGES_UNABLE_TO_ATTACK)
-        val UNABLE_TO_CONSUME = Koko.config.getMessageConfig(Translatable.MESSAGES_UNABLE_TO_CONSUME)
-        val UNABLE_TO_CRAFT = Koko.config.getMessageConfig(Translatable.MESSAGES_UNABLE_TO_CRAFT)
-        val UNABLE_TO_FORGE = Koko.config.getMessageConfig(Translatable.MESSAGES_UNABLE_TO_FORGE)
-        val UNABLE_TO_ARMOR = Koko.config.getMessageConfig(Translatable.MESSAGES_UNABLE_TO_ARMOR)
+        val UNABLE_TO_USE = Koko.config.unableToUseMessage
+        val UNABLE_TO_ATTACK = Koko.config.unableToAttackMessage
+        val UNABLE_TO_CONSUME = Koko.config.unableToConsumeMessage
+        val UNABLE_TO_CRAFT = Koko.config.unableToCraftMessage
+        val UNABLE_TO_FORGE = Koko.config.unableToForgeMessage
+        val UNABLE_TO_ARMOR = Koko.config.unableToArmorMessage
     }
 }

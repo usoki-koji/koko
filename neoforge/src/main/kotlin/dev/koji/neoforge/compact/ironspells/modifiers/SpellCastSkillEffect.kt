@@ -5,6 +5,7 @@ import com.mojang.serialization.MapCodec
 import com.mojang.serialization.codecs.RecordCodecBuilder
 import dev.koji.koko.Koko
 import dev.koji.koko.common.SkillsHandler
+import dev.koji.koko.common.events.PlayerEventHandler
 import dev.koji.koko.common.helpers.MainHelper
 import dev.koji.koko.common.models.modifiers.AbstractSkillModifier
 import dev.koji.koko.common.models.modifiers.AbstractSkillModifierFilter
@@ -34,6 +35,18 @@ class SpellCastSkillEffect(
 
     override fun apply(applier: SkillsHandler.SkillModifierApplier, player: Player) {
         val filter = applier.filter as? SpellCastSkillEffectFilter ?: return
+
+        val group = Koko.skillsHandler.getGroup(player, MainHelper.safeParseResource(spell))
+
+        if (group != null) {
+            for (listedTarget in group.content) {
+                IronSpellsCompact.addBlockedSpell(
+                    player.uuid, MainHelper.safeParseResource(listedTarget), filter.spellLevel,  IronSpellsCompact.ISSBlockScope.CAST
+                )
+            }
+
+            return
+        }
 
         IronSpellsCompact.addBlockedSpell(
             player.uuid, MainHelper.safeParseResource(spell), filter.spellLevel,  IronSpellsCompact.ISSBlockScope.CAST

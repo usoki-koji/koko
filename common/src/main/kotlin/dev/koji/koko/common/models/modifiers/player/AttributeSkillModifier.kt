@@ -19,7 +19,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier
 import net.minecraft.world.entity.player.Player
 
 class AttributeSkillModifier(
-    val attribute: String,
+    val target: String,
     val filters: List<AbstractSkillModifierFilter>
 ) : AbstractSkillModifier() {
     override val type: String = Paths.DefaultModifiers.PLAYER_ATTRIBUTE
@@ -51,16 +51,16 @@ class AttributeSkillModifier(
     ) {
         val attributes = player.attributes
 
-        val attributeLocation = MainHelper.safeParseResource(attribute)
+        val attributeLocation = MainHelper.safeParseResource(target)
 
         val attributeHolder = BuiltInRegistries.ATTRIBUTE.getHolder(
             ResourceKey.create(Registries.ATTRIBUTE, attributeLocation)
         )
 
-        if (attributeHolder.isEmpty) return Koko.LOGGER.warn("Unable to find holder for $attribute")
+        if (attributeHolder.isEmpty) return Koko.LOGGER.warn("Unable to find holder for $target")
 
         val attributeInstance = attributes.getInstance(attributeHolder.get())
-            ?: return Koko.LOGGER.warn("Unable to find instance for $attribute")
+            ?: return Koko.LOGGER.warn("Unable to find instance for $target")
 
         val modifier = when(val filter = applier.filter) {
             is AboveSkillModifierFilter -> AttributeModifier(
@@ -86,7 +86,7 @@ class AttributeSkillModifier(
     companion object {
         val CODEC: MapCodec<AttributeSkillModifier> = RecordCodecBuilder.mapCodec { instance ->
             instance.group(
-                Codec.STRING.fieldOf("attribute").forGetter(AttributeSkillModifier::attribute),
+                Codec.STRING.fieldOf("attribute").forGetter(AttributeSkillModifier::target),
                 AbstractSkillModifierFilter.CODEC.listOf().fieldOf("filters").forGetter(AttributeSkillModifier::filters)
             ).apply(instance, ::AttributeSkillModifier)
         }

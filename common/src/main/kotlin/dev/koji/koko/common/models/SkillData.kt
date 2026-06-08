@@ -7,7 +7,7 @@ import net.minecraft.network.codec.ByteBufCodecs
 import net.minecraft.network.codec.StreamCodec
 import org.jetbrains.annotations.ApiStatus
 
-data class SkillData(@set:ApiStatus.Internal var xp: Double, @set:ApiStatus.Internal var isUnlocked: Boolean) {
+data class SkillData(val xp: Double, val isUnlocked: Boolean) {
     companion object {
         val CODEC: Codec<SkillData> = RecordCodecBuilder.create { instance ->
             instance.group(
